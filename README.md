@@ -1,0 +1,9 @@
+# O-Pen
+
+## Mission statement
+For several years, the only method for realistic penetration in VRChat is using the Dynamic Penetration System (DPS), a shader that causes penetrator meshes to deform to an oriface as an invisible light on the avatar being penetrated. It has worked great, but there have always been major limitations to DPS, including, but not limited to
+* Shaders: If you want to use a custom shader, your penetrator may look out of place since it has to either use the DPS shader itself, or one of the few supported 3rd-party shaders (Poiyomi, XSToon, etc) -- similar limitation exists with the DPS-compatible Thry Penetration System (TPS) built into versions 8.0 and above of Poiyomi's shaders. This type of scenario is known in the IT world as "vendor lock-in" and can be challenging especially for content creators who might want to utilize special features these shaders don't offer at this time.
+* Performance Ratings: Due to the nature of DPS and TPS, having several "lights" on your avatar will immediately drag your avatar's performance to "very poor".
+* Cross-Platform: DPS and TPS have never been compatible with the Oculus Quest (Android) version of VRChat, due to the strict avatar performance requirements, as well as mesh quantity limits, and more importantly - prohibition of 3rd party shaders.
+
+Since the original release of DPS, there have been significant improvements within VRChat including interractive avatar bones (physbones), avatar dynamics, and Open Sound Control integration. This project aims to utilize these new features to create a complete replacement for DPS.
